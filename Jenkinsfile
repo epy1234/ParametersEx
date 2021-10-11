@@ -1,10 +1,10 @@
 pipeline {
-    agent any
+    agent "Built-In Node"
 
     stages {
         stage('print my choice') {
             steps {
-                echo "hello ${MyFamily}"
+                echo "Hello ${MyFamily}"
             }
         }
     }
