@@ -1,5 +1,5 @@
 pipeline {
-    agent "Built-In Node"
+    agent "{Built-In Node}"
 
     stages {
         stage('print my choice') {
